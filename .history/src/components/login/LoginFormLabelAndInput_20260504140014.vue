@@ -3,6 +3,6 @@
         <label for="email">
             Email:
         </label>
-        <input/>
+        <input
     </div>
 </template>

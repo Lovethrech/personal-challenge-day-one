@@ -4,6 +4,6 @@ import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
 
 <template>
     <form action="" class="login-form">
-        <LoginFormLabelAndInput/>
+        <L
     </form>
 </template>
