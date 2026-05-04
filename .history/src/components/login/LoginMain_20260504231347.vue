@@ -29,7 +29,6 @@ const PageTitleName=ref("TaskBoard");
 }
 .login-card{
     background-color: black;
-    padding: 2vh 4vh;
 }
 .subtitle{
     text-align: center;

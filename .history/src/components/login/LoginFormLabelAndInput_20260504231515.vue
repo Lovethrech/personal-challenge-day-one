@@ -17,7 +17,7 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
 <style scoped>
 .login-form-label-and-input{
     text-transform: capitalize;
-    margin: 1vh 0;
+    margin: 
 }
 .login-form-input{
     width: 100%;
