@@ -3,7 +3,7 @@ import {ref} from "vue";
 import authDetails from "../data/authDetails.json";
 import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
 
-const emailValue=ref("");
+const emailValue=ref("Emailllll");
 const passwordValue=ref("IHateYou");
 </script>
 
@@ -15,11 +15,6 @@ const passwordValue=ref("IHateYou");
             :nameType="authDetails[0].items[0].nameType" 
             :placeholder="authDetails[0].items[0].placeholder"
         />
-        <LoginFormLabelAndInput 
-            :vModel="passwordValue" 
-            :name="authDetails[0].items[1].name" 
-            :nameType="authDetails[0].items[1].nameType" 
-            :placeholder="authDetails[0].items[1].placeholder"
-        />
+        
     </form>
 </template>
