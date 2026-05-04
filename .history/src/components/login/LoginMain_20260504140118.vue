@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 import PageTitle from '../PageTitle.vue';
-import LoginForm from "./LoginForm.vue";
+import LoginFomr
 
 const PageTitleName=ref("TaskBoard");
 </script>
@@ -13,7 +13,6 @@ const PageTitleName=ref("TaskBoard");
             <p class="subtitle">
                 Real-time Collaborative Workspace
             </p>
-            <LoginForm/>
         </div>
     </div>
 </template>

@@ -3,6 +3,6 @@
         <label for="email">
             Email:
         </label>
-        <input v-model="" type="email" placeholder="" required/>
+        <input v-model="" type="email"/>
     </div>
 </template>

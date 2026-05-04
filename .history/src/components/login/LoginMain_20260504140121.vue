@@ -13,7 +13,6 @@ const PageTitleName=ref("TaskBoard");
             <p class="subtitle">
                 Real-time Collaborative Workspace
             </p>
-            <LoginForm/>
         </div>
     </div>
 </template>
