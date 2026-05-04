@@ -7,13 +7,13 @@
                 "id":"1",
                 "name":"email",
                 "nameType":"email",
-                "placeholder":"dolapoxxxxx@gmail.com"
+                "placeholder":"dolapoxxxxx@gnail"
             },
             {
                 "id":"2",
                 "name":"password",
-                "nameType":"password",
-                "placeholder":"*************"
+                "nameType":"",
+                "placeholder":""
             }
         ]    
     },

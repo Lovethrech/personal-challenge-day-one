@@ -1,10 +1,9 @@
 <script setup>
 import {ref} from "vue";
-import authDetails from "../data/authDetails.json";
 import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
 
 const emailValue=ref("Emailllll")l
-const passwordValue=ref("IHateYou");
+const 
 </script>
 
 <template>
