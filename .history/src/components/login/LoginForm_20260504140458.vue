@@ -7,6 +7,6 @@ const emailVModel=ref("Emailllll")
 
 <template>
     <form action="" class="login-form">
-        <LoginFormLabelAndInput :vModel="emailVModel"/>
+        <LoginFormLabelAndInput :vModel=""/>
     </form>
 </template>

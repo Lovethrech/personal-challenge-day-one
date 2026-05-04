@@ -2,11 +2,11 @@
 import {ref} from "vue";
 import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
 
-const emailVModel=ref("Emailllll")
+const emai
 </script>
 
 <template>
     <form action="" class="login-form">
-        <LoginFormLabelAndInput :vModel="emailVModel"/>
+        <LoginFormLabelAndInput/>
     </form>
 </template>
