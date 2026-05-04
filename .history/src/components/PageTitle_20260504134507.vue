@@ -6,6 +6,6 @@ const {name}=defineProps(["name"]);
 
 <template>
     <h1 class="page-title">
-        {{ name }}
+        
     </h1>
 </template>
