@@ -11,7 +11,5 @@ const {name}=defineProps(["name"]);
 </template>
 
 <style scoped>
-.page-title{
-    text-align: center;
-}
+
 </style>
