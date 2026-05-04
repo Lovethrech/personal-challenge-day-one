@@ -18,8 +18,8 @@ const passwordValue=ref("IHateYou");
         <LoginFormLabelAndInput 
             :vModel="passwordValue" 
             :name="authDetails[1].name" 
-            :nameType="authDetails[1].nameType" 
-            :placeholder="authDetails[1].placeholder"
+            :nameType="authDetails[0].nameType" 
+            :placeholder="authDetails[0].placeholder"
         />
     </form>
 </template>

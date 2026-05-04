@@ -24,6 +24,6 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
     padding: 1vh 2vh;
     font-size: 1.6vh;
     border: 0;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #
 }
 </style>

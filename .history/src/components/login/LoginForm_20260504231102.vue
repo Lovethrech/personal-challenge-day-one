@@ -19,7 +19,7 @@ const passwordValue=ref("IHateYou");
             :vModel="passwordValue" 
             :name="authDetails[1].name" 
             :nameType="authDetails[1].nameType" 
-            :placeholder="authDetails[1].placeholder"
+            :placeholder="authDetails[0].placeholder"
         />
     </form>
 </template>

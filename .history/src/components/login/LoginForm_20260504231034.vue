@@ -12,14 +12,14 @@ const passwordValue=ref("IHateYou");
         <LoginFormLabelAndInput 
             :vModel="emailValue" 
             :name="authDetails[0].name" 
-            :nameType="authDetails[0].nameType" 
-            :placeholder="authDetails[0].placeholder"
+            :nameType="authDetails[0].items[0].nameType" 
+            :placeholder="authDetails[0].items[0].placeholder"
         />
         <LoginFormLabelAndInput 
             :vModel="passwordValue" 
-            :name="authDetails[1].name" 
-            :nameType="authDetails[1].nameType" 
-            :placeholder="authDetails[1].placeholder"
+            :name="authDetails[0].items[1].name" 
+            :nameType="authDetails[0].items[1].nameType" 
+            :placeholder="authDetails[0].items[1].placeholder"
         />
     </form>
 </template>

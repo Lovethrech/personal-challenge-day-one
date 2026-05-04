@@ -1,0 +1,14 @@
+[
+    {
+            "id":"1",
+            "name":"email",
+            "nameType":"email",
+            "placeholder":"dolapoxxxxx@gmail.com"
+        },
+        {
+            "id":"2",
+            "name":"password",
+            "nameType":"password",
+            "placeholder":"*************"
+        }
+]
