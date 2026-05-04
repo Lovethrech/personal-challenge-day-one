@@ -18,11 +18,12 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
 .login-form-label-and-input{
     text-transform: capitalize;
     margin: 1vh 0;
+    color: #ffffff;
 }
 .login-form-input{
     width: 100%;
     background: transparent;
-    color: #ffffff;
+    
     padding: 1vh 2vh;
     font-size: 1.6vh;
     border: 0;
@@ -30,6 +31,5 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
 }
 .login-form-label{
     font-size: 1.4vh;
-    color: #ffffff;
 }
 </style>

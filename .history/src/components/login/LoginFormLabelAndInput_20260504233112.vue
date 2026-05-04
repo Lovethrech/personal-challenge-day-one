@@ -30,6 +30,5 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
 }
 .login-form-label{
     font-size: 1.4vh;
-    color: #ffffff;
 }
 </style>

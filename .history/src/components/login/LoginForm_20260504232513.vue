@@ -22,8 +22,7 @@ const passwordValue=ref("IHateYou");
             :nameType="authDetails[1].nameType" 
             :placeholder="authDetails[1].placeholder"
         />
-        <br/>
-        <LoginBtn/>
+        <Login
     </form>
 </template>
 

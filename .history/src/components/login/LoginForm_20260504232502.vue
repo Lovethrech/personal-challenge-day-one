@@ -2,7 +2,7 @@
 import {ref} from "vue";
 import authDetails from "../data/authDetails.json";
 import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
-import LoginBtn from "./LoginBtn.vue";
+import Log
 
 const emailValue=ref("");
 const passwordValue=ref("IHateYou");
@@ -22,8 +22,6 @@ const passwordValue=ref("IHateYou");
             :nameType="authDetails[1].nameType" 
             :placeholder="authDetails[1].placeholder"
         />
-        <br/>
-        <LoginBtn/>
     </form>
 </template>
 

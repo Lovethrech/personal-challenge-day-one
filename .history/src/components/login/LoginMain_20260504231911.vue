@@ -34,6 +34,6 @@ const PageTitleName=ref("TaskBoard");
 .subtitle{
     text-align: center;
     letter-spacing: 1vh;
-    font-size: 1.4vh;
+    fony
 }
 </style>
