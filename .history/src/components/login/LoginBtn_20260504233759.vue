@@ -1,6 +1,6 @@
 <template>
     <div class="login-btn">
-        <button type="submit" disabled=false>
+        <button type="submit">
             Submit
         </button>
     </div>

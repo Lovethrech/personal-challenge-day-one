@@ -17,7 +17,7 @@
     color: #000000;
     padding: 1vh;
     font-size: 1.6vh;
-    transition: transform .2s ease-in-out;
+    transition: transform 2s ease-in-out;
 }
 .login-btn button:disabled{
     background-color: #88858575;
