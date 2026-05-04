@@ -1,0 +1,14 @@
+[
+    {
+        "id":"1",
+        "name":"login",
+        "items":[
+            {
+                "id":"1",
+                "name":"",
+                "nameType":"",
+                "placeholder":""
+            }
+        ]    
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id":"1",
+        "name":"login",
+        "items":[
+            {
+                "id":"1",
+                "name":"email",
+                "nameType":"",
+                "placeholder":""
+            },
+            {
+                "id":"2",
+                "name":"password",
+                "nameType":"",
+                "placeholder":""
+            }
+        ]    
+    },
+    {
+        "id":"2",
+        
+    }
+]
