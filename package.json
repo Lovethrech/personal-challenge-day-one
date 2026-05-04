@@ -1,0 +1,31 @@
+{
+  "name": "personal-challenge-day-one",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "@vueuse/core": "^14.3.0",
+    "autoprefixer": "^10.5.0",
+    "date-fns": "^4.1.0",
+    "lucide-vue-next": "^1.0.0",
+    "pinia": "^3.0.4",
+    "postcss": "^8.5.13",
+    "sortablejs": "^1.15.7",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.8",
+    "vite-plugin-vue-devtools": "^8.1.1"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
