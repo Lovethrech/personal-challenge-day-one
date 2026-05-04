@@ -9,6 +9,6 @@ const passwordValue=ref("IHateYou");
 
 <template>
     <form action="" class="login-form">
-        <LoginFormLabelAndInput :vModel="emailValue" :name="authDetails[0].items[0].name"/>
+        <LoginFormLabelAndInput :vModel="emailValue" :name="authDetails[0]"/>
     </form>
 </template>

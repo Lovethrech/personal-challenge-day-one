@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'nameType', 'placeholder']);
+const {vModel, name, nameType, placeholder}=defineProps(["vModel"]);
 </script>
 
 <template>
@@ -9,6 +9,6 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
         <label for="email">
             Email:
         </label>
-        <input :value="vModel" :name="" :type="email" :placeholder="" required/>
+        <input :value="vModel" name="" type="email" placeholder="" required/>
     </div>
 </template>

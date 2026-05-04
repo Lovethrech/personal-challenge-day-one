@@ -9,6 +9,6 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
         <label for="email">
             Email:
         </label>
-        <input :value="vModel" :name="" :type="email" :placeholder="" required/>
+        <input :value="vModel" :name= type="email" placeholder="" required/>
     </div>
 </template>

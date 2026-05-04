@@ -5,6 +5,7 @@ import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
 
 const emailValue=ref("Emailllll");
 const passwordValue=ref("IHateYou");
+console.log(authDetails[0].items[0].name);
 </script>
 
 <template>
