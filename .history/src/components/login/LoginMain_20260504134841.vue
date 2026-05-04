@@ -9,9 +9,6 @@ const PageTitleName=ref("TaskBoard");
     <div class="login-main">
         <div class="login-card">
             <PageTitle :name="PageTitleName"/>
-            <p class="subtitle">
-                Real-time Collaborative Workspace
-            </p>
         </div>
     </div>
 </template>

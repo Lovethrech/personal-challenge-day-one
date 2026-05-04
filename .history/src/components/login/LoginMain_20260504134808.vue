@@ -9,18 +9,14 @@ const PageTitleName=ref("TaskBoard");
     <div class="login-main">
         <div class="login-card">
             <PageTitle :name="PageTitleName"/>
-            <p class="subtitle">
-                Real-time Collaborative Workspace
-            </p>
         </div>
     </div>
 </template>
 
 <style scoped>
 .login-main{
-    padding: 4vh 4vw;
     display: flex;
     place-items:center;
-    justify-content: center;
+    
 }
 </style>
