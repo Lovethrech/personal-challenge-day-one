@@ -4,7 +4,7 @@
             <label for="email">
                 Email:
             </label>
-            <input />
+            <input
         </div>
     </form>
 </template>
