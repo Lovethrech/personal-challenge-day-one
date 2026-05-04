@@ -9,10 +9,7 @@ const router=useRouter();
 const emailValue=ref("");
 const passwordValue=ref("");
 const handleLogin=async()=>{
-    if(((emailValue.value==="") || (passwordValue.value==="")) || ((emailValue.value==="") && (passwordValue.value===""))){
-        
-    }
-    else{
+    if(((emailValue.value=\!=="") || (passwordValue.value==="")) || ((emailValue.value==="") && (passwordValue.value===""))){
         console.log('Login attempt', emailValue.value);
         router.push('dashboard');
     }

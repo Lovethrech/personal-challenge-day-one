@@ -10,13 +10,10 @@ const emailValue=ref("");
 const passwordValue=ref("");
 const handleLogin=async()=>{
     if(((emailValue.value==="") || (passwordValue.value==="")) || ((emailValue.value==="") && (passwordValue.value===""))){
-        
+        loginErrorMsg.value="block";
     }
-    else{
-        console.log('Login attempt', emailValue.value);
-        router.push('dashboard');
-    }
-    
+    console.log('Login attempt', emailValue.value);
+    router.push('dashboard');
 }
 </script>
 
@@ -35,7 +32,8 @@ const handleLogin=async()=>{
             :placeholder="authDetails[1].placeholder"
         />
         <br/>
-        <LoginBtn @click="handleLogin"/>
+        <p class="auth-error-msg" :style="{display:loginErrorMsg}">Fill in all details above.</p>
+        <LoginBtn/>
     </form>
 </template>
 
@@ -43,4 +41,5 @@ const handleLogin=async()=>{
 .login-form{
     margin-top: 10vh;
 }
+
 </style>

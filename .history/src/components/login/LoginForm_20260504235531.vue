@@ -10,13 +10,9 @@ const emailValue=ref("");
 const passwordValue=ref("");
 const handleLogin=async()=>{
     if(((emailValue.value==="") || (passwordValue.value==="")) || ((emailValue.value==="") && (passwordValue.value===""))){
-        
     }
-    else{
-        console.log('Login attempt', emailValue.value);
-        router.push('dashboard');
-    }
-    
+    console.log('Login attempt', emailValue.value);
+    router.push('dashboard');
 }
 </script>
 
@@ -35,7 +31,7 @@ const handleLogin=async()=>{
             :placeholder="authDetails[1].placeholder"
         />
         <br/>
-        <LoginBtn @click="handleLogin"/>
+        <LoginBtn/>
     </form>
 </template>
 

@@ -9,19 +9,13 @@ const router=useRouter();
 const emailValue=ref("");
 const passwordValue=ref("");
 const handleLogin=async()=>{
-    if(((emailValue.value==="") || (passwordValue.value==="")) || ((emailValue.value==="") && (passwordValue.value===""))){
-        
-    }
-    else{
-        console.log('Login attempt', emailValue.value);
-        router.push('dashboard');
-    }
+    console.log('Login attempt', emailValue.value);
     
 }
 </script>
 
 <template>
-    <form @submit-prevent="handleLogin" class="login-form">
+    <form action="" class="login-form">
         <LoginFormLabelAndInput 
             :vModel="emailValue" 
             :name="authDetails[0].name" 
@@ -35,7 +29,7 @@ const handleLogin=async()=>{
             :placeholder="authDetails[1].placeholder"
         />
         <br/>
-        <LoginBtn @click="handleLogin"/>
+        <LoginBtn/>
     </form>
 </template>
 
