@@ -20,7 +20,5 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
 }
 .login-form-input{
     width: 100%;
-    padding: 1vh 2vh;
-    font-size: 1.6vh;
 }
 </style>
