@@ -22,6 +22,7 @@ const PageTitleName=ref("TaskBoard");
 .login-main{
     width: 100%;
     min-height: 100vh;
+    background-color: orange;
     padding: 4vh 4vw;
     display: flex;
     place-items:center;
@@ -29,6 +30,5 @@ const PageTitleName=ref("TaskBoard");
 }
 .subtitle{
     text-align: center;
-    letter-spacing: 1vh;
 }
 </style>

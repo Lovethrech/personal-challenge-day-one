@@ -13,6 +13,6 @@ const {name}=defineProps(["name"]);
 <style scoped>
 .page-title{
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vh;
 }
 </style>

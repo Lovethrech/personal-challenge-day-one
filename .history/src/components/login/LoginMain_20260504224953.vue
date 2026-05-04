@@ -29,6 +29,6 @@ const PageTitleName=ref("TaskBoard");
 }
 .subtitle{
     text-align: center;
-    letter-spacing: 1vh;
+    letter-spacing: 2vh;
 }
 </style>

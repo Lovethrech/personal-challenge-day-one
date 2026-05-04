@@ -25,7 +25,5 @@ const passwordValue=ref("IHateYou");
 </template>
 
 <style scoped>
-.login-form{
-    margin-top: 10vh;
-}
+.
 </style>
