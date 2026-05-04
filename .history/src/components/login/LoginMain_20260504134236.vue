@@ -2,13 +2,13 @@
 import {ref} from "vue";
 import PageTitle from '../PageTitle.vue';
 
-const PageTitleName=ref("TaskBoard");
+const Page
 </script>
 
 <template>
     <div class="login-main">
         <div class="login-card">
-            <PageTitle :name="PageTitleName"/>
+            <PageTitle/>
         </div>
     </div>
 </template>

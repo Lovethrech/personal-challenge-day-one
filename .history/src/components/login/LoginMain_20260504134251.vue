@@ -8,7 +8,7 @@ const PageTitleName=ref("TaskBoard");
 <template>
     <div class="login-main">
         <div class="login-card">
-            <PageTitle :name="PageTitleName"/>
+            <PageTitle/>
         </div>
     </div>
 </template>
