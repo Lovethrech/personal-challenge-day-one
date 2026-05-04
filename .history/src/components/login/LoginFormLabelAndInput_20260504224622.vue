@@ -5,17 +5,14 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
 </script>
 
 <template>
-    <div class="login-form-label-and-input">
+    <div class="login-form-label-and-">
         <label :for="name">
             {{name}}
         </label>
-        <br/>
         <input :value="vModel" :name="name" :type="nameType" :placeholder="placeholder" required/>
     </div>
 </template>
 
 <style scoped>
-.login-form-label-and-input{
-    text-transform: capitalize;
-}
+.login-form-label-and-
 </style>
