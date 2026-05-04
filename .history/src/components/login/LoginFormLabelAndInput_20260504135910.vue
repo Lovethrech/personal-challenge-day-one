@@ -1,7 +1,7 @@
 <template>
     <div class="login-form-label-and-">
         <label for="email">
-            Email:
-        </label>
+                Email:
+            </label>
     </div>
 </template>
