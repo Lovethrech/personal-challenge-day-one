@@ -10,7 +10,7 @@ const {vModel, name, nameType, placeholder}=defineProps(["vModel", 'name', 'name
             {{name}}
         </label>
         <br/>
-        <input class="login-form-input" :value="vModel" :name="name" :type="nameType" :placeholder="placeholder" required/>
+        <input :value="vModel" :name="name" :type="nameType" :placeholder="placeholder" required/>
     </div>
 </template>
 

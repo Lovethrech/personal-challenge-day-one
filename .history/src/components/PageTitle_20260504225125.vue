@@ -14,6 +14,6 @@ const {name}=defineProps(["name"]);
 .page-title{
     text-align: center;
     font-size: 5vh;
-    font-weight: 800;
+    
 }
 </style>
