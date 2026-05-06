@@ -8,7 +8,7 @@ import LoginBtn from "./LoginBtn.vue";
 const router=useRouter();
 const emailValue=ref("");
 const passwordValue=ref("");
-const handleLogin=()=>{
+const handleLogin=asyn=>{
     if ((emailValue.value!=="") && (passwordValue.value!=="")) {
         console.log('Login attempt', emailValue.value);
         router.push('/dashboard');
