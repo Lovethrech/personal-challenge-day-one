@@ -14,9 +14,7 @@ const handleLogin=async()=>{
         console.log('Login attempt', emailValue.value);
         router.push('/dashboard');
     }
-    else{
-        
-    }
+    
 }
 </script>
 

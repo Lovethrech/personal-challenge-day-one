@@ -1,12 +1,12 @@
 <script setup>
 import {defineProps} from "vue";
 
-const {disableBtn} = defineProps(["disableBtn"]);
+const {disableBtn} 
 </script>
 
 <template>
     <div class="login-btn">
-        <button type="submit" disable="true">
+        <button type="submit">
             Submit
         </button>
     </div>
