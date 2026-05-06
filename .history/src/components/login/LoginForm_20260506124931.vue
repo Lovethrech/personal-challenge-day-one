@@ -30,7 +30,7 @@ const handleLogin=async()=>{
             :placeholder="authDetails[1].placeholder"
         />
         <br/>
-        <LoginBtn @click="handleLogin" :disableBtn="disable"/>
+        <LoginBtn @click="handleLogin :disbale"/>
     </form>
 </template>
 

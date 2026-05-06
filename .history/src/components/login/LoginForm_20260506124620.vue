@@ -6,17 +6,16 @@ import LoginFormLabelAndInput from './LoginFormLabelAndInput.vue';
 import LoginBtn from "./LoginBtn.vue";
 
 const router=useRouter();
-const disableBtn=ref(true);
 const emailValue=ref("");
 const passwordValue=ref("");
-const handleLogin=async()=>{
+const handleLogin=()=>{
     console.log('Login attempt', emailValue.value);
     router.push('/dashboard');
 }
 </script>
 
 <template>
-    <form class="login-form">
+    <form @submit-prevent="handleLogin" class="login-form">
         <LoginFormLabelAndInput 
             :vModel="emailValue" 
             :name="authDetails[0].name" 
@@ -30,7 +29,7 @@ const handleLogin=async()=>{
             :placeholder="authDetails[1].placeholder"
         />
         <br/>
-        <LoginBtn @click="handleLogin" :disableBtn="disable"/>
+        <LoginBtn @click="handleLogin"/>
     </form>
 </template>
 
