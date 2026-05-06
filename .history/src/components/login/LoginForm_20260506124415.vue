@@ -9,7 +9,7 @@ const router=useRouter();
 const emailValue=ref("");
 const passwordValue=ref("");
 const handleLogin=()=>{
-    if ((emailValue.value!=="") || (passwordValue.value!=="")) {
+    if ((emailValue.value!=="")  (passwordValue.value!=="")) {
         console.log('Login attempt', emailValue.value);
         router.push('/dashboard');
     }
