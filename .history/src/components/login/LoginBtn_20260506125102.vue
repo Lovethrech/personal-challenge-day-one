@@ -1,7 +1,5 @@
 <script setup>
-import {defineProps} from "vue";
-
-const {disabl}
+import {defineProps} 
 </script>
 
 <template>

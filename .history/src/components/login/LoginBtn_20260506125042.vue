@@ -1,8 +1,4 @@
-<script setup>
-import {defineProps} from "vue";
 
-const {disabl}
-</script>
 
 <template>
     <div class="login-btn">
