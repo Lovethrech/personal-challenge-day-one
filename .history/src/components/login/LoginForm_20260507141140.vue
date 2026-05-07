@@ -25,7 +25,7 @@ const handleLogin=async(event)=>{
 </script>
 
 <template>
-    <form @submit.prevent="handleLogin" class="login-form">
+    <form @submit.preventDefault="handleLogin" class="login-form">
         <LoginFormLabelAndInput 
             :vModel="emailValue" 
             :name="authDetails[0].name" 
