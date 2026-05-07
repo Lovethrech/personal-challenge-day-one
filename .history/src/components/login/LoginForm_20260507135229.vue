@@ -18,6 +18,7 @@ const handleLogin=async(event)=>{
         console.log('Login attempt', emailValue.value);
         router.push('/dashboard');
     }
+    
     else{
         console.warn("Email and/or password is empty");
     }

@@ -11,8 +11,7 @@ const emailValue=ref("");
 const passwordValue=ref("");
 
 const handleLogin=async(event)=>{
-    event.preventDefault();
-    
+    event
     if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== "")){
         disableBtn.value=true;
         console.log('Login attempt', emailValue.value);

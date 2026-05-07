@@ -10,8 +10,7 @@ const disableBtn=ref(false);
 const emailValue=ref("");
 const passwordValue=ref("");
 
-const handleLogin=async(event)=>{
-    event.preventDefault();
+const handleLogin=async()=>{
     
     if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== "")){
         disableBtn.value=true;

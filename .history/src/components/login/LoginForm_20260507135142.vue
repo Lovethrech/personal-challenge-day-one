@@ -13,11 +13,11 @@ const passwordValue=ref("");
 const handleLogin=async(event)=>{
     event.preventDefault();
     
-    if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== "")){
-        disableBtn.value=true;
+    if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== ""){
         console.log('Login attempt', emailValue.value);
         router.push('/dashboard');
     }
+    disableBtn.value=true;
     else{
         console.warn("Email and/or password is empty");
     }
