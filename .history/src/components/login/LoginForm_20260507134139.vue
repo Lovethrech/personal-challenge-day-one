@@ -14,10 +14,14 @@ const handleLogin=async()=>{
     if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== "")){
         disableBtn.value=true;
         console.log('Login attempt', emailValue.value);
+
+        try{
+
+        }
         router.push('/dashboard');
     }
     else{
-        console.warn("Email or password is empty");
+        cono
     }
 }
 </script>

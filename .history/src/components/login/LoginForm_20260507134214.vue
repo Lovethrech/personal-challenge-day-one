@@ -14,6 +14,10 @@ const handleLogin=async()=>{
     if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== "")){
         disableBtn.value=true;
         console.log('Login attempt', emailValue.value);
+
+        try{
+
+        }
         router.push('/dashboard');
     }
     else{
