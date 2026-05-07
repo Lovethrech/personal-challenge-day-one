@@ -11,7 +11,7 @@ const emailValue=ref("");
 const passwordValue=ref("");
 
 const handleLogin=async()=>{
-    if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !== "")){
+    if ((emailValue.value.trim() !=="") && (passwordValue.value.trim() !)){
         disableBtn.value=true;
         console.log('Login attempt', emailValue.value);
         router.push('/dashboard');
