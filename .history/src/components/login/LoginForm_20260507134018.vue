@@ -15,9 +15,7 @@ const handleLogin=async()=>{
         disableBtn.value=true;
         console.log('Login attempt', emailValue.value);
 
-        try{
-            
-        }
+        
         router.push('/dashboard');
     }
     else{
