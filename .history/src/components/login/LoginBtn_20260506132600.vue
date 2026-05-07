@@ -6,7 +6,7 @@ const {disableBtn} = defineProps(["disableBtn"]);
 
 <template>
     <div class="login-btn">
-        <button type="submit" :disabled="disableBtn">
+        <button type="submit" :disable="dis">
             Submit
         </button>
     </div>
