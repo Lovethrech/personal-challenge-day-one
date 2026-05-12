@@ -14,7 +14,9 @@ const PageTitleName=ref("TaskBoard");
                 Real-time Collaborative Workspace
             </p>
             <LoginForm/>
-            
+            <div class="switch-auth">
+                
+            </div>
         </div>
     </div>
 </template>
