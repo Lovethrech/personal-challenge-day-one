@@ -16,8 +16,8 @@ const PageTitleName=ref("TaskBoard");
             <LoginForm/>
             <div class="switch-auth">
                 Don't have an account
-                <span>
-
+                <span>>
+                    
                 </span> 
             </div>
         </div>
