@@ -60,7 +60,5 @@ const switchToRegister=()=>{
     text-decoration: underline;
 }
 #auth-register-link:hover{
-    cursor: pointer;
-    
 }
 </style>

@@ -9,7 +9,7 @@ const authDetails=[
         "id":"1",
         "name":"fullname",
         "nameType":"text",
-        "placeholder":"Dolapo Rachael"
+        "placeholder":"dolapoxxxxx@gmail.com"
     },
     {
         "id":"2",
@@ -20,7 +20,6 @@ const authDetails=[
 ]
 const router=useRouter();
 const disableBtn=ref(false);
-const nameValue=ref("");
 const emailValue=ref("");
 const passwordValue=ref("");
 
@@ -41,23 +40,17 @@ const handleLogin=async(event)=>{
 <template>
     <form @submit.prevent="handleLogin" class="login-form">
         <LoginFormLabelAndInput 
-            :vModel="nameValue" 
+            :vModel="emailValue" 
             :name="authDetails[0].name" 
             :nameType="authDetails[0].nameType" 
             :placeholder="authDetails[0].placeholder"
         />
         <LoginFormLabelAndInput 
-            :vModel="emailValue" 
-            :name="authDetails[1].name" 
-            :nameType="authDetails[1].nameType" 
-            :placeholder="authDetails[1].placeholder"
-        />
-        <!-- <LoginFormLabelAndInput 
             :vModel="passwordValue" 
             :name="authDetails[1].name" 
             :nameType="authDetails[1].nameType" 
             :placeholder="authDetails[1].placeholder"
-        /> -->
+        />
         <br/>
         <LoginBtn @click="handleLogin" :disableBtn="disableBtn"/>
     </form>
