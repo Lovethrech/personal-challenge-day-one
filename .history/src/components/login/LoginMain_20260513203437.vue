@@ -27,7 +27,7 @@ const switchToRegister=()=>{
                 Real-time Collaborative Workspace
             </p>
             <LoginForm :style="{display: displayLoginForm}"/>
-            <LoginRegisterForm :style="{display: displayRegisterForm}"/>
+            <LoginRegisterForm :style="{display: displayLoginForm}"/>
             <div class="switch-auth">
                 Don't have an account?
                 <span>
