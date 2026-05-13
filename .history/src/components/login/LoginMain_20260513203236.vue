@@ -10,11 +10,6 @@ const displayRegisterForm=ref("none");
 const switchToRegister=()=>{
     if (displayLoginForm.value === "block"){
         displayLoginForm.value="none";
-        displayRegisterForm.value="block";
-    }
-    else{
-        displayLoginForm.value="block";
-        displayRegisterForm.value="none";
     }
 }
 </script>
@@ -27,7 +22,6 @@ const switchToRegister=()=>{
                 Real-time Collaborative Workspace
             </p>
             <LoginForm :style="{display: displayLoginForm}"/>
-            <LoginRegisterForm/>
             <div class="switch-auth">
                 Don't have an account?
                 <span>

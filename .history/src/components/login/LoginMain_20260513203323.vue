@@ -12,10 +12,6 @@ const switchToRegister=()=>{
         displayLoginForm.value="none";
         displayRegisterForm.value="block";
     }
-    else{
-        displayLoginForm.value="block";
-        displayRegisterForm.value="none";
-    }
 }
 </script>
 

@@ -2,21 +2,8 @@
 import {ref} from "vue";
 import PageTitle from '../PageTitle.vue';
 import LoginForm from "./LoginForm.vue";
-import LoginRegisterForm from "./LoginRegisterForm.vue";
 
 const PageTitleName=ref("TaskBoard");
-const displayLoginForm=ref("block");
-const displayRegisterForm=ref("none");
-const switchToRegister=()=>{
-    if (displayLoginForm.value === "block"){
-        displayLoginForm.value="none";
-        displayRegisterForm.value="block";
-    }
-    else{
-        displayLoginForm.value="block";
-        displayRegisterForm.value="none";
-    }
-}
 </script>
 
 <template>
@@ -26,10 +13,9 @@ const switchToRegister=()=>{
             <p class="subtitle">
                 Real-time Collaborative Workspace
             </p>
-            <LoginForm :style="{display: displayLoginForm}"/>
-            <LoginRegisterForm/>
+            <LoginForm/>
             <div class="switch-auth">
-                Don't have an account?
+                Don't have an account ||
                 <span>
                     Register
                 </span> 

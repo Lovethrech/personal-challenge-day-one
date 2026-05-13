@@ -10,11 +10,6 @@ const displayRegisterForm=ref("none");
 const switchToRegister=()=>{
     if (displayLoginForm.value === "block"){
         displayLoginForm.value="none";
-        displayRegisterForm.value="block";
-    }
-    else{
-        displayLoginForm.value="block";
-        displayRegisterForm.value="none";
     }
 }
 </script>

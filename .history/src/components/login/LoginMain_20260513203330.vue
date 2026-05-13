@@ -13,8 +13,8 @@ const switchToRegister=()=>{
         displayRegisterForm.value="block";
     }
     else{
-        displayLoginForm.value="block";
-        displayRegisterForm.value="none";
+        displayLoginForm.value="none";
+        displayRegisterForm.value="block";
     }
 }
 </script>
