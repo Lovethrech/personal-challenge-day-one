@@ -57,6 +57,6 @@ const switchToRegister=()=>{
     font-size: 1.4vh;
 }
 #auth-register-link{
-    text-decoration: underline;
+    
 }
 </style>

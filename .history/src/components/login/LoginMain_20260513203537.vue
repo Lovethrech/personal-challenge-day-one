@@ -30,7 +30,7 @@ const switchToRegister=()=>{
             <LoginRegisterForm :style="{display: displayRegisterForm}"/>
             <div class="switch-auth">
                 Don't have an account?
-                <span @click="switchToRegister" id="auth-register-link">
+                <span @click="switch">
                     Register
                 </span> 
             </div>
@@ -55,8 +55,5 @@ const switchToRegister=()=>{
     text-align: center;
     letter-spacing: 1vh;
     font-size: 1.4vh;
-}
-#auth-register-link{
-    text-decoration: underline;
 }
 </style>
