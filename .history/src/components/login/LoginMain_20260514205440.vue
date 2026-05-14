@@ -28,19 +28,12 @@ const switchToRegister=()=>{
             </p>
             <LoginForm :style="{display: displayLoginForm}"/>
             <LoginRegisterForm :style="{display: displayRegisterForm}"/>
-            <div class="switch-auth">
-                <div id="switch-to-register" :style="{display: displayLoginForm}">
-                    Don't have an account?
-                    <span @click="switchToRegister" id="auth-register-link">
-                        Register
-                    </span>
-                </div> 
-                <div id="switch-to-register" :style="{display: displayRegisterForm}">
-                    Have an existing account?
-                    <span @click="switchToRegister" id="auth-register-link">
-                        Login
-                    </span>
-                </div> 
+            <div class="switch-auth"
+            >
+                Don't have an account?
+                <span @click="switchToRegister" id="auth-register-link">
+                    Register
+                </span> 
             </div>
         </div>
     </div>
@@ -69,6 +62,6 @@ const switchToRegister=()=>{
 }
 #auth-register-link:hover{
     cursor: pointer;
-    
+
 }
 </style>

@@ -35,7 +35,7 @@ const switchToRegister=()=>{
                         Register
                     </span>
                 </div> 
-                <div id="switch-to-register" :style="{display: displayRegisterForm}">
+                <div id="switch-to-register">
                     Have an existing account?
                     <span @click="switchToRegister" id="auth-register-link">
                         Login

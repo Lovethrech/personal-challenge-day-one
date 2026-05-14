@@ -29,13 +29,13 @@ const switchToRegister=()=>{
             <LoginForm :style="{display: displayLoginForm}"/>
             <LoginRegisterForm :style="{display: displayRegisterForm}"/>
             <div class="switch-auth">
-                <div id="switch-to-register" :style="{display: displayLoginForm}">
+                <div id="switch-to-register" >
                     Don't have an account?
                     <span @click="switchToRegister" id="auth-register-link">
                         Register
                     </span>
                 </div> 
-                <div id="switch-to-register" :style="{display: displayRegisterForm}">
+                <div id="switch-to-register">
                     Have an existing account?
                     <span @click="switchToRegister" id="auth-register-link">
                         Login
