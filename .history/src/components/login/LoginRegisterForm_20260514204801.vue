@@ -19,12 +19,6 @@ const authDetails=[
     },
     {
         "id":"3",
-        "name":"phone number",
-        "nameType":"password",
-        "placeholder":"*************"
-    },
-    {
-        "id":"4",
         "name":"password",
         "nameType":"password",
         "placeholder":"*************"

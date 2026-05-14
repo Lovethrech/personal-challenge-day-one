@@ -19,12 +19,6 @@ const authDetails=[
     },
     {
         "id":"3",
-        "name":"phone number",
-        "nameType":"password",
-        "placeholder":"*************"
-    },
-    {
-        "id":"4",
         "name":"password",
         "nameType":"password",
         "placeholder":"*************"
@@ -66,9 +60,9 @@ const handleLogin=async(event)=>{
         />
         <LoginFormLabelAndInput 
             :vModel="passwordValue" 
-            :name="authDetails[2].name" 
+            :name="authDetails[21].name" 
             :nameType="authDetails[2].nameType" 
-            :placeholder="authDetails[2].placeholder"
+            :placeholder="authDetails[1].placeholder"
         />
         <br/>
         <LoginBtn @click="handleLogin" :disableBtn="disableBtn"/>

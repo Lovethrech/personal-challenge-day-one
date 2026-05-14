@@ -17,18 +17,8 @@ const authDetails=[
         "nameType":"email",
         "placeholder":"dolapoxxxxx@gmail.com"
     },
-    {
-        "id":"3",
-        "name":"phone number",
-        "nameType":"password",
-        "placeholder":"*************"
-    },
-    {
-        "id":"4",
-        "name":"password",
-        "nameType":"password",
-        "placeholder":"*************"
-    }
+   
+
 ]
 const router=useRouter();
 const disableBtn=ref(false);
@@ -64,12 +54,12 @@ const handleLogin=async(event)=>{
             :nameType="authDetails[1].nameType" 
             :placeholder="authDetails[1].placeholder"
         />
-        <LoginFormLabelAndInput 
+        <!-- <LoginFormLabelAndInput 
             :vModel="passwordValue" 
-            :name="authDetails[2].name" 
-            :nameType="authDetails[2].nameType" 
-            :placeholder="authDetails[2].placeholder"
-        />
+            :name="authDetails[1].name" 
+            :nameType="authDetails[1].nameType" 
+            :placeholder="authDetails[1].placeholder"
+        /> -->
         <br/>
         <LoginBtn @click="handleLogin" :disableBtn="disableBtn"/>
     </form>

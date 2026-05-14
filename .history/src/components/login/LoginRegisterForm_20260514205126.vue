@@ -19,12 +19,12 @@ const authDetails=[
     },
     {
         "id":"3",
-        "name":"phone number",
+        "name":"password",
         "nameType":"password",
         "placeholder":"*************"
-    },
+    }
     {
-        "id":"4",
+        "id":"3",
         "name":"password",
         "nameType":"password",
         "placeholder":"*************"
