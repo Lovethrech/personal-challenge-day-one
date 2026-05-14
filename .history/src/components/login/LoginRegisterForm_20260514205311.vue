@@ -21,7 +21,7 @@ const authDetails=[
         "id":"3",
         "name":"phone number",
         "nameType":"tel",
-        "placeholder":"+23470*********"
+        "placeholder":"+23470***********"
     },
     {
         "id":"4",
@@ -69,12 +69,6 @@ const handleLogin=async(event)=>{
             :name="authDetails[2].name" 
             :nameType="authDetails[2].nameType" 
             :placeholder="authDetails[2].placeholder"
-        />
-        <LoginFormLabelAndInput 
-            :vModel="passwordValue" 
-            :name="authDetails[3].name" 
-            :nameType="authDetails[3].nameType" 
-            :placeholder="authDetails[3].placeholder"
         />
         <br/>
         <LoginBtn @click="handleLogin" :disableBtn="disableBtn"/>

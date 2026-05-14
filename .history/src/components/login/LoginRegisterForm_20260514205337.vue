@@ -73,8 +73,8 @@ const handleLogin=async(event)=>{
         <LoginFormLabelAndInput 
             :vModel="passwordValue" 
             :name="authDetails[3].name" 
-            :nameType="authDetails[3].nameType" 
-            :placeholder="authDetails[3].placeholder"
+            :nameType="authDetails[2].nameType" 
+            :placeholder="authDetails[2].placeholder"
         />
         <br/>
         <LoginBtn @click="handleLogin" :disableBtn="disableBtn"/>
