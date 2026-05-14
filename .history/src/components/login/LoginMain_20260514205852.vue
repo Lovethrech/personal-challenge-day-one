@@ -64,13 +64,9 @@ const switchToRegister=()=>{
     letter-spacing: 1vh;
     font-size: 1.4vh;
 }
-.switch-auth{
-    font-size: 1.5vh;
-}
 #auth-register-link{
     text-decoration: underline;
     color: rgb(203, 245, 203);
-    
 }
 #auth-register-link:hover{
     cursor: pointer;
